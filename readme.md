@@ -1,6 +1,6 @@
 ## Get Token
 
-    curl -i -X POST --user $API_KEY:$SECRET http://emaple.com/oauth/token -d grant_type=client_credentials
+    curl -i -X POST --user $API_KEY:$SECRET http://localhost:3000/oauth/token -d grant_type=client_credentials
 
 ## Test endpoint
 
